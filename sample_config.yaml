@@ -1,0 +1,27 @@
+---
+project:
+  name: avondale
+
+influxdb:
+  enabled: True
+  host: xxx.com
+  organization: econode
+  port: 9999
+  bucket: avondale
+  token: ????==
+
+mqtt:
+  enabled: True
+  host: xxx.com
+  port: 9999
+  user: matt
+  password: xxxxx
+  # open_mqtt_topic: OMG/OMG_lilygo_rtl_433_ESP/RTL_433toMQTT/Fineoffset-WHx080/0/153
+  open_mqtt_topic: OMG/OMG_lilygo_rtl_433_ESP/RTL_433toMQTT/Fineoffset-WHx080/0/18
+
+csv:
+  enabled: True
+  path: data
+  retention_days: 180
+
+...
